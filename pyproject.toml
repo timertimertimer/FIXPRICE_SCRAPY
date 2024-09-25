@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fixprice-scrapy"
+version = "0.1.0"
+description = ""
+authors = ["timertimertimer <timerkhan2002@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scrapy = "^2.11.2"
+
+
+[tool.poetry.group.dev.dependencies]
+six = "^1.16.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
